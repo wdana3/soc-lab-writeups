@@ -1,2 +1,34 @@
-# soc-lab-writeups
-SOC analyst investigation write-ups: alert triage, log analysis, and incident reports
+# SOC Analyst Lab Write-ups
+
+Security+ certified, working toward a SOC analyst role. This repo collects hands-on investigation write-ups from blue-team labs: alert triage, email and log analysis, and incident reporting.
+
+Each write-up walks through a realistic scenario the way a Tier 1 analyst would handle it, from first look to verdict and recommended response.
+
+## Write-ups
+
+| # | Room | Focus |
+|---|---|---|
+| 01 | [The Greenholt Phish](01-greenholt-phish/) | Phishing email triage: header analysis, SPF/DMARC spoofing check, malicious attachment analysis |
+
+## Skills demonstrated
+
+- Email header and authentication analysis (SPF, DMARC, Reply-To and envelope-from inspection)
+- Phishing triage and indicator of compromise (IOC) extraction
+- Safe handling of malicious attachments: isolation, hashing, and reputation lookup
+- Mapping findings to MITRE ATT&CK
+- Writing incident reports with containment and response recommendations
+
+## Tools
+
+Thunderbird, MXToolbox, VirusTotal, ipinfo, Linux command line, TryHackMe
+
+## Other hands-on training
+
+Completed 15+ guided labs through the Google Cybersecurity Certificate, covering the Linux command line, SQL queries, Wireshark and tcpdump packet analysis, Suricata IDS alerts and rules, and hashing and encryption.
+
+## About me
+
+**William Dana III**, Charlotte, NC (open to remote)
+CompTIA Security+ (SY0-701) | Google Cybersecurity Certificate
+
+[LinkedIn](https://www.linkedin.com/in/william-dana-iii-083278360)
